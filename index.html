@@ -16,9 +16,11 @@
         const Intro = () => <h1>인트로</h1>
         const Project = () => <h1>프로젝트</h1>
         const App = () => (
+            <div>
             <Navigation/>
             <Intro/>
             <Project/>
+            </div>
         );
 
         ReactDOM.render(<App/>, document.querySelector("#root"));
